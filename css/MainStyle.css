@@ -1,15 +1,14 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     background-color: rgb(65, 100, 175)
 }
 
-nav ul,
-footer ul {
+nav footer {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
     font-weight: bold;
+    height: 5%;
+    vertical-align: center;
+    align-content: center;
 }
 
 nav ul li,
@@ -30,22 +29,8 @@ p {
     color: #333;
 }
 
-footer {
-    border-top: 1px solid rgb(100, 65, 165);
-    font-size: .8em;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 .container {
     align-content: center;
     width: 100%;
-    height: 100%;
+    height: 90%
 }
