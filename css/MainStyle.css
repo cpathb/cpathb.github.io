@@ -1,36 +1,44 @@
 body {
-    background-color: rgb(65, 100, 175)
-}
-
-nav footer {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    list-style: none;
-    font-weight: bold;
-    height: 5%;
-    vertical-align: center;
-    align-content: center;
+    background-color: rgb(100, 65, 175);
+    margin: 0px;
+    height: 100vh;
 }
 
 nav ul li,
 footer ul li {
     display: inline;
-    margin-right: 20px;
-    border-bottom: 1px solid rgb(100, 65, 165);
+    list-style: none;
+    font-weight: bold;
+    margin-right: 1%;
 }
 
-h1 {
-    font-size: 3em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+nav ul,
+footer ul {
+    margin: 0px;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
-.container {
-    align-content: center;
+nav,
+footer {
     width: 100%;
-    height: 90%
+    height: 5vh;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.container,
+.introduction {
+    width: 100%;
+    margin: 0px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.me {
+    display: block;
+    margin: auto;
+    height: 25vh;
+    width: 25vw;
 }
