@@ -1,7 +1,6 @@
 body {
     background-color: rgb(100, 65, 175);
-    margin: 0px;
-    height: 100%;
+    margin: auto;
     font-family: "Roboto";
 }
 
@@ -32,6 +31,10 @@ footer ul li{
     float:right;
 }
 
+nav ul li {
+    float: left;
+}
+
 a {
     color: rgb(255, 255, 255);
 }
@@ -49,7 +52,8 @@ a:hover{
     margin: 0px;
     height: 90%;
     display: flex;
-    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 .easter-egg {
     width:30%;
@@ -57,96 +61,8 @@ a:hover{
     display: block;
     margin: auto;
     cursor: default;
-    
 }
 .me {
     height: 100%;
     width: 100%;
 }
-
-
-/*
-Paleta colores temporal:
-    claro:   rgb(209, 192, 241);
-    base:    rgb(100, 65, 175);
-    oscuro:  rgb(55, 71, 139);
-    palido:  rgb(152, 133, 198);
-    brillo:  rgb(190, 127, 56);
-*/
-
-/*
-body {
-    background-color: rgb(100, 65, 175);
-    margin: 0px;
-    height: 100%;
-    font-family: "Roboto";
-}
-
-nav,
-footer {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    align-items: center;
-}
-
-nav ul,
-footer ul {
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-nav ul li,
-footer ul li {
-    display: inline;
-    list-style: none;
-    font-weight: bold;
-    margin-right: 1%;
-}
-
-footer ul li{
-    float:right;
-}
-
-a {
-    color: rgb(255, 255, 255);
-}
-a:visited {
-    color: rgb(255, 255, 255);
-}
-
-a:hover{
-    color: rgb(209, 192, 241);
-}
-
-.container,
-.introduction {
-    width: 100%;
-    margin: 0px;
-    height: 90%;
-    display: flex;
-    align-items: center;
-}
-
-.easter-egg{
-    height: 50%;
-    width: 30%;
-    display: block;
-    margin: auto;
-    cursor: default;
-}
-
-.me{
-   width: 100%;
-   height: 100%; 
-}
-
-/*
-Paleta colores temporal:
-    claro:   rgb(209, 192, 241);
-    base:    rgb(100, 65, 175);
-    oscuro:  rgb(55, 71, 139);
-    palido:  rgb(152, 133, 198);
-    brillo:  rgb(190, 127, 56);
-*/
