@@ -7,23 +7,55 @@ body {
 
 nav,
 footer,
-.logo .material-icons {
+.container {
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+nav {
     display: flex;
-    width: 100%;
-    height: 5%;
+    height: 5vh;
+    top: 0;
+}
+
+footer {
+    display: flex;
+    height: 5vh;
+    bottom: 0;
+}
+
+.container {
+    overflow: hidden;
+    height: 90vh;
+    width: inherit;
+    top: 5vh;
+    bottom: 5vh;
+}
+
+.introduction {
+    display: flex;
+    height: inherit;
+    width: inherit;
+}
+
+nav,
+footer,
+.logo .material-icons {
     align-items: center;
 }
 
 nav ul,
 footer ul {
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: inherit;
 }
 
 nav ul li,
 footer ul li {
-    font-size: 22px;
+    font-size: calc(2vh+2vw+2vmin);
     display: inline;
     margin-right: 1%;
     list-style: none;
@@ -51,29 +83,20 @@ a:hover {
     color: rgb(209, 192, 241);
 }
 
-.container,
-.introduction {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    height: 90%;
-    margin: 0px;
-}
-
-.me {
-    display: block;
-    width: 30%;
-    height: 50%;
-    margin: auto;
-    cursor: default;
-    max-height: 500px;
-    max-width: 300px;
-}
-
 .logo {
     height: 32px;
     width: 32px;
     cursor: default;
+}
+
+.me {
+    display: block;
+    margin: auto;
+    cursor: default;
+    width: 40vh;
+    height: 30vh;
+    max-height: 400px;
+    max-width: 300px;
 }
 
 .logo:hover,
@@ -83,7 +106,7 @@ a:hover {
 
 .material-icons {
     font-size: 32px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 
