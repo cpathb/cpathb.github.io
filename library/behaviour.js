@@ -4,7 +4,7 @@ $(document).ready(function() {
     var projects = $(this).find("#projects");
 
     // Request the list of repos from my github
-    $.get("https://api.github.com/users/cpathb/repos", function(repos) {
+    $.get("https://api.github.com/users/carlospalf/repos", function(repos) {
         repos.forEach(function(repo) {
             if (repo.description != null) { // Check if the repo has description 
                 projects.append("<div class='repo'><div class='repoLanguage'></div><div class='repoData'><div class='repoName'><a href='https://github.com/cpathb/" + repo.name + "'><span class='RepoName'>" + repo.name + "</span></a></div><div class='repoLang'><span class='RepoLang'>" + repo.language + "</span></div><div class='repoDesc'><span class='RepoDesc'>" + repo.description + "</span></div></div></div>");
